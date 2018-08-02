@@ -1,4 +1,4 @@
-class ApplicationController < Sinatra::Base
+class App < Sinatra::Base
 
   configure do
     set :public_folder, 'public'
